@@ -1,0 +1,137 @@
+body {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+#welcome {
+    background-image: linear-gradient(red, orange);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.topnav {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    background-image: linear-gradient(red, orange);
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 250px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-image: linear-gradient(lightgreen, green);
+    color: #000;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+a {
+    color: black;
+}
+
+.line {
+    background-color: #000;
+    width: 400px;
+    height: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    text-align: center;
+}
+
+.topnav {
+    font-family: 'Merienda';
+}
+
+#name {
+    font-family: 'cinzel decorative', "cursive";
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 100;
+
+}
+
+#1 {
+    line-break: strict;
+    line-height: 1.6;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', "Sans Serif";
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: green;
+    border-radius: 10px;
+}
+
+body {
+    padding: 0px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: block;
+}
+
+#bb {
+    height: 170px;
+    border-radius: 50%;
+}
+
+
+img {
+    height: 400px;
+}
+
